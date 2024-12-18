@@ -1,6 +1,6 @@
-  =>  Template Name    : SilverLiningIT - SilverLiningIT Website Template
+  =>  Template Name    : Ekaal IT Solutions - Ekaal IT Solutions Website Template
 
-  =>  Template Link    : https://htmlcodex.com/SilverLiningIT-website-template
+  =>  Template Link    : https://htmlcodex.com/Ekaal IT Solutions-website-template
 
   =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
 
