@@ -156,7 +156,7 @@
                             </h1>
                             <div class="d-flex justify-content-between mb-3"><span>Virus</span><i class="fa fa-check text-primary pt-1"></i></div>
                             <div class="d-flex justify-content-between mb-3"><span>Back</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Computer Cleaning</span><i class="fa fa-times text-danger pt-1"></i></div>
+
                             <div class="d-flex justify-content-between mb-2"><span>Break Fix Support</span><i class="fa fa-times text-danger pt-1"></i></div>
                             <a href="" class="btn btn-primary py-2 px-4 mt-4">Order Now</a>
                         </div>
@@ -175,7 +175,7 @@
                             </h1>
                             <div class="d-flex justify-content-between mb-3"><span>Virus</span><i class="fa fa-check text-primary pt-1"></i></div>
                             <div class="d-flex justify-content-between mb-3"><span>Back</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Computer Cleaning</span><i class="fa fa-check text-primary pt-1"></i></div>
+
                             <div class="d-flex justify-content-between mb-2"><span>Break Fix Support</span><i class="fa fa-times text-danger pt-1"></i></div>
                             <a href="" class="btn btn-primary py-2 px-4 mt-4">Order Now</a>
                         </div>
@@ -194,7 +194,7 @@
                             </h1>
                             <div class="d-flex justify-content-between mb-3"><span>Virus</span><i class="fa fa-check text-primary pt-1"></i></div>
                             <div class="d-flex justify-content-between mb-3"><span>Back</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Computer Cleaning</span><i class="fa fa-check text-primary pt-1"></i></div>
+
                             <div class="d-flex justify-content-between mb-2"><span>Break Fix Support</span><i class="fa fa-check text-primary pt-1"></i></div>
                             <a href="" class="btn btn-primary py-2 px-4 mt-4">Order Now</a>
                         </div>
@@ -229,55 +229,46 @@
                                     <input type="email" class="form-control bg-light border-0" placeholder="Your Email"
                                         style="height: 55px;">
                                 </div>
-                                <div class="col-12">
-                                    <!-- Custom Multi-Select Dropdown inside Text Box -->
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Select Services"
-                                        id="selectedServicesInput" readonly onclick="toggleDropdown()"
-                                        style="height: 55px;">
-                                    <div class="multi-select-options" id="multiSelectOptions"
-                                        style="display: none; background-color: #f8f9fa; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
-                                        <label><input type="checkbox" value="Business Cable"
-                                                onclick="updateSelectedServices()"> Business Cable</label>
-                                        <label><input type="checkbox" value="Business DSL/U-Verse/FIOS"
-                                                onclick="updateSelectedServices()"> Business DSL/U-Verse/FIOS</label>
-                                        <label><input type="checkbox" value="Colocation / Datacenter"
-                                                onclick="updateSelectedServices()"> Colocation / Datacenter</label>
-                                        <label><input type="checkbox" value="Dark Fiber" onclick="updateSelectedServices()">
-                                            Dark Fiber</label>
-                                        <label><input type="checkbox" value="Dedicated Ethernet"
-                                                onclick="updateSelectedServices()"> Dedicated Ethernet</label>
-                                        <label><input type="checkbox" value="Ethernet Over Copper"
-                                                onclick="updateSelectedServices()"> Ethernet Over Copper</label>
-                                        <label><input type="checkbox" value="Fiber" onclick="updateSelectedServices()">
-                                            Fiber</label>
-                                        <label><input type="checkbox" value="Fixed Wireless"
-                                                onclick="updateSelectedServices()"> Fixed Wireless</label>
-                                        <label><input type="checkbox" value="Dedicated Internet Access"
-                                                onclick="updateSelectedServices()"> Dedicated Internet Access</label>
-                                        <label><input type="checkbox" value="Managed Failover"
-                                                onclick="updateSelectedServices()"> Managed Failover</label>
-                                        <label><input type="checkbox" value="Managed Firewall"
-                                                onclick="updateSelectedServices()"> Managed Firewall</label>
-                                        <label><input type="checkbox" value="MPLS" onclick="updateSelectedServices()">
-                                            MPLS</label>
-                                        <label><input type="checkbox" value="MPLS Over DSL"
-                                                onclick="updateSelectedServices()"> MPLS Over DSL</label>
-                                        <label><input type="checkbox" value="Network Security"
-                                                onclick="updateSelectedServices()"> Network Security</label>
-                                        <label><input type="checkbox" value="Private Line"
-                                                onclick="updateSelectedServices()"> Private Line</label>
-                                        <label><input type="checkbox" value="Satellite" onclick="updateSelectedServices()">
-                                            Satellite</label>
-                                        <label><input type="checkbox" value="SD-WAN" onclick="updateSelectedServices()">
-                                            SD-WAN</label>
-                                        <label><input type="checkbox" value="TV" onclick="updateSelectedServices()">
-                                            TV</label>
-                                        <label><input type="checkbox" value="Wholesale DIA"
-                                                onclick="updateSelectedServices()"> Wholesale DIA</label>
-                                        <label><input type="checkbox" value="Wireless Redundancy"
-                                                onclick="updateSelectedServices()"> Wireless Redundancy</label>
-                                    </div>
+                            <div class="col-12">
+                                <!-- Custom Multi-Select Dropdown inside Text Box -->
+                                <input type="text" class="form-control bg-light border-0" placeholder="Select Software Services"
+                                    id="selectedServicesInput" readonly onclick="toggleDropdown()" style="height: 55px;">
+                                <div class="multi-select-options" id="multiSelectOptions"
+                                    style="display: none; background-color: #f8f9fa; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                                    <label><input type="checkbox" value="Cyber Security" onclick="updateSelectedServices()"> Cyber Security</label>
+                                    <label><input type="checkbox" value="Data Backup" onclick="updateSelectedServices()"> Data Backup</label>
+                                    <label><input type="checkbox" value="Network Security" onclick="updateSelectedServices()"> Network
+                                        Security</label>
+                                    <label><input type="checkbox" value="O365" onclick="updateSelectedServices()"> O365</label>
+                                    <label><input type="checkbox" value="Azure" onclick="updateSelectedServices()"> Azure</label>
+                                    <label><input type="checkbox" value="Data Analytics" onclick="updateSelectedServices()"> Data Analytics</label>
+                                    <label><input type="checkbox" value="Data Engineering" onclick="updateSelectedServices()"> Data
+                                        Engineering</label>
+                                    <label><input type="checkbox" value="Salesforce" onclick="updateSelectedServices()"> Salesforce</label>
+                                    <label><input type="checkbox" value="SharePoint" onclick="updateSelectedServices()"> SharePoint</label>
+                                    <label><input type="checkbox" value="Business Analysis" onclick="updateSelectedServices()"> Business
+                                        Analysis</label>
+                                    <label><input type="checkbox" value="Project Management" onclick="updateSelectedServices()"> Project
+                                        Management</label>
+                                    <label><input type="checkbox" value="Dot Net Development" onclick="updateSelectedServices()"> Dot Net
+                                        Development</label>
+                                    <label><input type="checkbox" value="Front-End Development" onclick="updateSelectedServices()"> Front-End
+                                        Development</label>
+                                    <label><input type="checkbox" value="Back-End Development" onclick="updateSelectedServices()"> Back-End
+                                        Development</label>
+                                    <label><input type="checkbox" value="Java Full-Stack Development" onclick="updateSelectedServices()"> Java
+                                        Full-Stack Development</label>
+                                    <label><input type="checkbox" value="Mobile App Development" onclick="updateSelectedServices()"> Mobile App
+                                        Development</label>
+                                    <label><input type="checkbox" value="QA Analysis" onclick="updateSelectedServices()"> QA Analysis</label>
+                                    <label><input type="checkbox" value="SAP" onclick="updateSelectedServices()"> SAP</label>
+                                    <label><input type="checkbox" value="Virus Protection" onclick="updateSelectedServices()"> Virus
+                                        Protection</label>
+                                    <label><input type="checkbox" value="Technical Support" onclick="updateSelectedServices()"> Technical
+                                        Support</label>
                                 </div>
+                            </div>
+
                                 <div class="col-12">
                                     <!-- Textarea to display selected services -->
                                     <textarea class="form-control bg-light border-0" rows="3"
@@ -367,10 +358,7 @@
                                 <i class="bi bi-geo-alt text-primary me-2"></i>
                                 <p class="mb-0">Overland Park, Kansas</p>
                             </div>
-                            <div class="d-flex mb-2">
-                                <i class="bi bi-envelope-open text-primary me-2"></i>
-                                <p class="mb-0">Washington DC</p>
-                            </div>
+                         
                             <div class="d-flex mb-2">
                                 <i class="bi bi-telephone text-primary me-2"></i>
                                 <p class="mb-0">+1 (913) 687-9427</p>
