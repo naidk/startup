@@ -1,6 +1,6 @@
-  =>  Template Name    : Ekaal IT Solutions - Ekaal IT Solutions Website Template
+  =>  Template Name    : AKAL IT - AKAL IT Website Template
 
-  =>  Template Link    : https://htmlcodex.com/Ekaal IT Solutions-website-template
+  =>  Template Link    : https://htmlcodex.com/AKAL IT-website-template
 
   =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
 
